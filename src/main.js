@@ -6,6 +6,7 @@ import './plugins/element.js'
 import '../src/assets/css/global.css'
 import '../src/assets/fonts/iconfont.css'
 import TreeTable from 'vue-table-with-tree-grid'
+
 import axios from 'axios'
 Vue.config.productionTip = false
 
