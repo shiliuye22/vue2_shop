@@ -9,6 +9,8 @@ import Roles from '../components/power/Roles.vue'
 import Cate from '../components/goods/Cate.vue'
 import Params from '../components/goods/Params.vue'
 import List from '../components/goods/List.vue'
+import Orders from '../components/order/Order.vue'
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -43,6 +45,10 @@ const routes = [
       {
         path:'/goods',
         component:List
+      },
+      {
+        path:'/orders',
+        component:Orders
       }
 
     ]
